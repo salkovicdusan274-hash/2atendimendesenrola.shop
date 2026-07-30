@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Consultar Benefícios Disponíveis</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+
+body{
+
+background:
+linear-gradient(rgba(16,24,40,.45),rgba(16,24,40,.45)),
+url("https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?auto=format&fit=crop&w=1600&q=80");
+
+background-size:cover;
+background-position:center;
+background-repeat:no-repeat;
+
+display:flex;
+justify-content:center;
+align-items:center;
+
+min-height:100vh;
+padding:20px;
+
+}
+
+.card{
+
+width:100%;
+max-width:560px;
+
+background:rgba(255,255,255,.96);
+backdrop-filter:blur(10px);
+
+border-radius:30px;
+
+padding:45px 30px;
+
+text-align:center;
+
+box-shadow:0 20px 60px rgba(0,0,0,.25);
+
+animation:subir .8s ease;
+
+}
+
+@keyframes subir{
+
+from{
+opacity:0;
+transform:translateY(40px);
+}
+
+to{
+opacity:1;
+transform:translateY(0);
+}
+
+}
+
+.logo{
+
+width:90px;
+height:90px;
+
+margin:auto;
+margin-bottom:25px;
+
+border-radius:50%;
+
+background:linear-gradient(135deg,#00b894,#00cec9);
+
+display:flex;
+justify-content:center;
+align-items:center;
+
+font-size:42px;
+color:#fff;
+
+box-shadow:0 10px 25px rgba(0,184,148,.4);
+
+}
+
+h1{
+
+font-size:40px;
+font-weight:800;
+line-height:1.25;
+
+color:#14314d;
+
+margin-bottom:18px;
+
+}
+
+p{
+
+font-size:24px;
+color:#4d6478;
+
+margin-bottom:35px;
+
+}
+
+.info{
+
+background:#f4f8fb;
+
+border-radius:18px;
+
+padding:18px;
+
+margin-bottom:28px;
+
+font-size:18px;
+color:#425466;
+
+line-height:1.7;
+
+}
+
+.botao{
+
+display:block;
+
+width:100%;
+
+text-decoration:none;
+
+background:linear-gradient(135deg,#00b894,#00cec9);
+
+color:#fff;
+
+padding:20px;
+
+font-size:30px;
+font-weight:700;
+
+border-radius:18px;
+
+transition:.3s;
+
+}
+
+.botao:hover{
+
+transform:translateY(-3px);
+
+box-shadow:0 15px 30px rgba(0,184,148,.35);
+
+}
+
+.selo{
+
+margin-top:22px;
+
+display:inline-block;
+
+background:#e8fff6;
+
+padding:10px 18px;
+
+border-radius:30px;
+
+font-size:15px;
+font-weight:600;
+
+color:#009c7a;
+
+}
+
+.rodape{
+
+margin-top:30px;
+
+font-size:14px;
+
+color:#8b98a5;
+
+line-height:1.7;
+
+}
+
+@media(max-width:600px){
+
+.card{
+
+padding:35px 22px;
+
+}
+
+.logo{
+
+width:75px;
+height:75px;
+
+font-size:34px;
+
+}
+
+h1{
+
+font-size:31px;
+
+}
+
+p{
+
+font-size:20px;
+
+}
+
+.info{
+
+font-size:16px;
+
+}
+
+.botao{
+
+font-size:24px;
+
+padding:18px;
+
+}
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="card">
+
+<div class="logo">
+💰
+</div>
+
+<h1>
+Verifique se existem<br>
+benefícios disponíveis<br>
+para você
+</h1>
+
+<p>
+Consulta rápida, prática e online.
+</p>
+
+<div class="info">
+✔ Verificação em poucos segundos.<br>
+✔ Processo simples e seguro.<br>
+✔ Acesse sua consulta agora mesmo.
+</div>
+
+<a
+href="https://inquisitive-desenrola.netlify.app/"
+class="botao"
+target="_blank"
+rel="noopener noreferrer">
+CONSULTAR AGORA
+</a>
+
+<div class="selo">
+🔒 Ambiente Seguro
+</div>
+
+<div class="rodape">
+As informações são processadas de forma segura.<br>
+Clique no botão acima para iniciar sua consulta.
+</div>
+
+</div>
+
+</body>
+</html>
